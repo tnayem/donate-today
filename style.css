@@ -18,7 +18,7 @@ h2 {
 
 p {
     font-size: 18px;
-    line-height: 13px;
+    line-height: 15px;
 }
 
 a {
@@ -108,6 +108,9 @@ a {
     display: flex;
     justify-content: space-between;
 }
+.donate-plan p{
+    line-height: 22px;
+}
 
 .one-third {
     width: 30%;
@@ -123,3 +126,62 @@ a {
 }
 
 /* Donate Plan area End */
+/* Patners section start */
+.patners-section{
+    padding:100px;
+}
+.patners{
+    margin: 100px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.patner{
+    width:15%;
+}
+.patner img{
+    width: 100%;
+}
+.compani-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+/* Patners section end */
+/* subscribe section start */
+.subscriber-section{
+    padding: 70px 0;
+}
+.submit-section{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+    background: #FFF4D6;
+}
+.submit-section input{
+    padding: 12px 20px;
+}
+.subscriber-btn{
+    background-color: #FF5959;
+    border: 1px solid #FF5959;
+    border-radius:0px 5px 5px 0;
+    cursor: pointer;
+}
+/* subscribe section end */
+/* footer start */
+footer{
+    background-color: #0B0D17;
+    padding: 65px 0;
+    
+}
+footer h3{
+    color: #FF5959;
+}
+footer p{
+    color:#D9DBE1;
+}
+/* footer end */
