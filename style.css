@@ -111,18 +111,25 @@ a {
 .donate-plan p{
     line-height: 22px;
 }
-
+#food{
+    background: rgba(79, 157, 166, 0.1);
+}
+#shelter{
+    background: rgba(255, 89, 89, 0.1);
+}
+#education{
+    background-color:#f5deb399;
+}
 .one-third {
     width: 30%;
     border: 1px solid;
-    background: rgba(79, 157, 166, 0.1);
     margin: 2%;
     border-radius: 5px;
     padding: 50px 20px;
 }
 
 .one-third img {
-    width: 16%;
+    width: 22%;
 }
 
 /* Donate Plan area End */
